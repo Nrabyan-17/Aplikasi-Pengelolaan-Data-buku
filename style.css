@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+     width: 100%;
+     max-width: 900px;
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5a67d8;
+}
+
+#book-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 15px; 
+}
+
+form input[type="text"], form input[type="number"] {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background-color: #434190;
+}
+
+.bookshelf {
+     margin-top: 35px; 
+}
+
+.bookshelf h2 {
+    margin-bottom: 10px;
+    color: #5a67d8;
+}
+
+
+// Mulai menampilkan hasil
+.book-list {
+    margin-bottom: 20px;
+}
+
+.book-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+
+.book-list div .book-details {
+    flex-grow: 1;
+}
+
+.book-list div button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-list div button:first-child {
+    background-color: #48bb78;
+    color: #fff;
+}
+
+.book-list div button:first-child:hover {
+    background-color: #38a169;
+}
+
+.book-list div button:last-child {
+    background-color: #e53e3e;
+    color: #fff;
+}
+
+.book-list div button:last-child:hover {
+    background-color: #c53030;
+}
+
+form button {
+    padding: 5px;
+    border-radius: 3px
+}
